@@ -51,6 +51,9 @@ const data = [
 
 const profiles = profileIterator(data);
 
+// Display first profile upon page load
+nextProfile();
+
 // Next event
 document.getElementById('next').addEventListener('click', nextProfile);
 
